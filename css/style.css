@@ -1,0 +1,116 @@
+body,html {
+  height: 100%;
+}
+
+.gapper{
+	height: 30px;
+}
+
+#HCarousel > ul > li{
+	background-color: red;
+	width: 10px;
+}
+
+#top_menu > li > a{
+	font-size: 14px;
+	color: white;
+}
+
+#main_menu > nav > li > a{
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+#main_menu > nav{
+	height: 60px;
+}
+
+#header_container > div{
+	margin-top: 10px;
+}
+
+#header_container{
+	height: 170px;
+}
+
+footer{
+	height: 150px;
+}
+
+.btn-product{
+	width: 100%;
+}
+
+.card-body{
+	padding: 0;
+}
+.product_lists > .col {
+	padding: 0 2px 0 2px;
+}
+.card-buttons > .col {
+	margin: 0;
+	padding: 0 2px 0 2px;
+}
+.card-buttons{
+	margin: 0;
+}
+.price_tablet{
+	font-size: 20px;
+	line-height: 35px;
+	height: 39px;
+	text-align: center;
+	margin: 0 0 6px 6px;
+	background: #dcedc1;
+}
+.font-title{
+	style: bold;
+	font-size: 17px;
+}
+.card-text{
+	margin: 0;
+	padding: 10px 0 12px 0;
+}
+.product_lists{
+	margin: 0;
+}
+.card > img{
+	/* width: 216px;
+	height: 200px; */
+}
+/* ------------------------------------------------------------------------ */
+
+.dropdown div.dropdown-menu {
+		background: yellow;
+    border-radius:1px;
+    margin-top: 20px;
+    width: 800px;
+		min-height: 200px;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.dropdown-menu > .row{
+	margin: 0;
+}
+.to_hide > .image{
+	margin-bottom: 10px;
+}
+
+.menu_items_11, .menu_items_21, .menu_items_12, .menu_items_13, .menu_items_22,
+.menu_items_31, .menu_items_32, .menu_items_33 {
+	display: none;
+}
+
+.menu_items_11, .menu_items_21{
+
+}
+
+.menu_item_block{
+ padding-bottom: 20px;
+}
+
+
+/* ------------------------------------------------------------------------ */
