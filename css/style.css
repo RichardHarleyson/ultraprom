@@ -25,8 +25,16 @@ body,html {
 	height: 50px;
 }
 
-#header_container > div{
-	margin-top: 10px;
+.col-phone > span{
+	font-size: 16px;
+}
+
+.col-phone > img{
+	padding-bottom: 5px;
+}
+
+.col-phone > .row, .col-phone > .row > .col{
+	padding: 0;
 }
 
 #header_container{

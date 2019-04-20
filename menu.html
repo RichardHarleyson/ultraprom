@@ -57,39 +57,42 @@
 	</div>
 
 	<!-- Header -->
-	<div class='container' id='header_container'>
-				<div class='row'>
-					<div class='col-sm-2'>
-						<img src='img/logo.jpg'>
-					</div>
-					<div class='col-sm-3'>
-						<div class='row'>
-							<div class="active-cyan-3 active-cyan-4 mb-4">
-							  <input class="form-control" type="text" placeholder="Поиск">
-							</div>
-						</div>
-						<div class='row'>
-							<img src='img/email.jpg'>
-						</div>
-					</div>
-					<div class='col-sm-3'>
-						<img src='img/phones.jpg'>
-					</div>
-					<div class='col-sm-4'>
-						<div class='row'>
-							<div class="active-cyan-3 active-cyan-4 mb-4">
-								<input class="form-control" type="text" placeholder="Номер">
-							</div>
-						</div>
-						<div class='row'>CART</div>
+	<div class='container d-none d-lg-block' id='header_container'>
+		<div class="row">
+			<div class="col-xl-1 col-md-1 align-self-center">
+				<img class="img-fluid" src="img/logo_compressed.jpg">
+			</div>
+			<div class="col-4 align-self-center">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Поиск Товаров" aria-label="Username" aria-describedby="basic-addon1">
+					<div class="input-group-prepend">
+						<button class="btn btn-primary rounded-right" id="basic-addon1"><i class="fas fa-search"></i></span>
 					</div>
 				</div>
 			</div>
+			<div class="col-xl-4 col-md-3 col-phone align-self-center text-center">
+				<div class="row">
+					<div class="col col-xl-6 col-md-12">
+						<img src="img/kyivstar.png"><span>+38(098) 037-77-11</span>
+					</div>
+					<div class="col col-xl-6 col-md-12">
+						<img src="img/mts.png"><span>+38(050) 881-04-49</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-2 col-md-auto align-self-center">
+				<button class="btn btn-danger">Обратный Звонок</button>
+			</div>
+			<div class="col-xl-1 col-md-auto align-self-center">
+				<button class="btn"><i style="font-size: 45px;" class="text-danger fas fa-cart-arrow-down"></i></button>
+			</div>
+		</div>
+	</div>
 
 	<!-- 2nd Menu -->
 	<div class='container-fluid bg-primary'>
 		<div class="container" id='main_menu'>
-			<nav class="nav bg-primary justify-content-center nav-pills">
+			<nav class="nav bg-primary nav justify-content-center nav-pills">
 
 						<li class="nav-item dropdown border-left">
 							<a class="nav-link active dropdown-toggle active" data-toggle="dropdown" href="">Отопительная Техника</a>
