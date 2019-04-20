@@ -25,8 +25,8 @@
 
 <body>
 
-	<!-- Top Menu -->
-	<div class='container-fluid bg-primary'>
+	<!-- 1st Menu -->
+	<div class='container-fluid bg-primary d-none d-md-block'>
 		<div class="container">
 			<nav class="nav bg-primary justify-content-center nav-pills"  id='top_menu'>
 
@@ -53,6 +53,42 @@
 						</li>
 
 			</nav>
+		</div>
+	</div>
+	<!-- 1st Menu mobile -->
+	<div class="container-fluid d-md-none" id="first_menu_mobile">
+		<div class="navbar navbar-expand-md navbar-dark bg-primary">
+			<button class="navbar-toggler ml-auto mr-1" data-toggle="collapse" data-target="#first_menu">
+				<span class="text-light">
+					<i class="fas fa-bars"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="first_menu">
+				<ul class="navbar-nav text-right">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">О Нас</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Автономное отопление</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Услуги</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Каталог</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Прайсы</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Новости и статьи</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+
 		</div>
 	</div>
 
@@ -84,16 +120,44 @@
 				<button class="btn btn-danger">Обратный Звонок</button>
 			</div>
 			<div class="col-xl-1 col-md-auto align-self-center">
-				<button class="btn"><i style="font-size: 45px;" class="text-danger fas fa-cart-arrow-down"></i></button>
+				<button class="btn"><i class="text-danger fas fa-cart-arrow-down"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- Header mobile -->
+	<div class="container d-md-none header_mobile">
+		<div class="row">
+			<div class="col col-3 col-sm-2 align-self-center">
+				<img class="img-fluid" src="img/logo_compressed.jpg">
+			</div>
+			<div class="col col-6 col-sm-5 align-self-center text-center">
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="img/kyivstar.png"><span>+38(098) 037-77-11</span>
+					</div>
+					<div class="col-sm-12">
+						<img src="img/mts.png"><span>+38(050) 881-04-49</span>
+					</div>
+				</div>
+			</div>
+			<div class="col col-3 col-sm-4 align-self-center">
+				<button class="btn"><i class="text-danger fas fa-cart-arrow-down"></i></button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Поиск Товаров" aria-label="Username" aria-describedby="basic-addon1">
+				<div class="input-group-prepend">
+					<button class="btn btn-primary rounded-right" id="basic-addon1"><i class="fas fa-search"></i></span>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- 2nd Menu -->
-	<div class='container-fluid bg-primary'>
+	<div class='container-fluid bg-primary d-none d-md-block'>
 		<div class="container" id='main_menu'>
 			<nav class="nav bg-primary nav justify-content-center nav-pills">
-
 						<li class="nav-item dropdown border-left">
 							<a class="nav-link active dropdown-toggle active" data-toggle="dropdown" href="">Отопительная Техника</a>
 								<div class="dropdown-menu">
@@ -642,6 +706,43 @@
 			</nav>
 		</div>
 	</div>
+	<!-- 2nd Menu mobile -->
+	<div class="container-fluid d-md-none" id="second_menu_mobile">
+		<div class="navbar navbar-expand-md navbar-dark bg-primary">
+			<button class="navbar-toggler ml-auto mr-1" data-toggle="collapse" data-target="#second_menu">
+				<span class="text-light">
+					<i class="fas fa-bars"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="second_menu">
+				<ul class="navbar-nav text-right">
+					<li class="nav-item">
+						<a class="nav-link active">Водопровод</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link">Водопровод</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link">Водопровод</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+							Водопровод
+							<span class="caret"></span>
+						</a>
+						<div class="dropdown-menu bg-primary border-0" aria-labeleldby="dropdown_target">
+							<ul class="navbar-nav">
+								<a class="dropdown-item text-light" href="">Трубы</a>
+								<a class="dropdown-item" href="">Трубы</a>
+								<a class="dropdown-item" href="">Трубы</a>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
 
 	<div class='gapper'></div>
 
@@ -666,6 +767,7 @@
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>
 	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
 
 </body>
 

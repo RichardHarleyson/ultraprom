@@ -19,10 +19,52 @@ body,html {
 #main_menu > nav > li > a{
 	font-size: 16px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-#main_menu > nav{
-	height: 50px;
+.header_mobile > .row, .header_mobile > .row > .col{
+	padding: 0;
+}
+
+.header_mobile > div > div.col.col-3.col-sm-2.align-self-center{
+	padding-left: 15px;
+}
+
+i.fas.fa-cart-arrow-down {
+	font-size: 45px;
+}
+
+#first_menu_mobile {
+	padding: 0;
+}
+
+#second_menu_mobile {
+	padding: 0;
+}
+
+#first_menu > ul > li > a{
+	color: white;
+}
+
+#first_menu > ul > li.nav-item.show > div > ul > a{
+	color: white;
+}
+
+#second_menu > ul > li > a{
+	color: white;
+}
+
+#second_menu > ul > li.nav-item.show > div > ul > a{
+	color: white;
+}
+
+i.fas.fa-bars{
+	font-size: 30px;
+}
+
+.header_mobile > .container > .input-group{
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 .col-phone > span{
